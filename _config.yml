@@ -1,10 +1,10 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Reading Black
+longtitle:        Welcome to Reading Black
+author:           Jonny Huck
+email:            sr.seed@manchester.ac.uk
 description: >
-  Build Jekyll site with the GitBook style.
+  List of BAME authors.
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -51,6 +51,9 @@ exclude:
 
 collections:
   pages:
+    output: true
+    permalink: /:collection/:path/
+  posts:
     output: true
     permalink: /:collection/:path/
 
